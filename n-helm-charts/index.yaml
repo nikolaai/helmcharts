@@ -3,12 +3,12 @@ entries:
   fuzzy-engine:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-05-28T22:25:26.957393281+02:00"
+    created: "2023-05-28T22:31:43.955462682+02:00"
     description: A Helm chart for Kubernetes
-    digest: a239a41bd2ce75d6caab5aada4de00013dbd9e475960e92b97867a5e1ba237d9
+    digest: 646fa94249795985ed02ade7f48180d2e58cfdd246b0c0eeae4e2e22fcf08593
     name: fuzzy-engine
     type: application
     urls:
     - https://github.com/nikolaai/helmcharts/n-helm-charts/fuzzy-engine-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-28T22:25:26.956926895+02:00"
+generated: "2023-05-28T22:31:43.953552896+02:00"
