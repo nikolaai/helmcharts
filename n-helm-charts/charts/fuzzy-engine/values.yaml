@@ -1,0 +1,25 @@
+name: fuzzy-engine
+labels:
+  app: fuzzy-engine
+
+replicas: 3
+
+containers:
+  image: 
+    repository: ghcr.io/nikolaai/fuzzy-engine
+    tag: latest
+  containerPort: 80
+
+
+service:
+  enabled: true
+  port: 443
+
+ingress:
+  enabled: false
+  ingressClassName: nginx
+  domain: "example.com"
+  path: /
+  tlssecret: example-tls
+  port: 443
+  https: true
